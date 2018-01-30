@@ -15,12 +15,14 @@
 
   # Lab_02 
 
-  ## Set up DC Shell environment
-
-      $ set_app_var search_path "$search_path mapped lib cons rtl"
-      $ set_app_var target_library saed90nm_typ.db
-      $ set_app_var link_library "* $target_library"
-
+  ## Set up DC Shell environment .synopysys_dc.setup
+  
+  ```
+      set_app_var search_path "$search_path mapped lib cons rtl"
+      set_app_var target_library saed90nm_typ.db
+      set_app_var link_library "* $target_library"
+  ```
+  
   ## Running DC shell
 
       $ dc_shell -64bit
